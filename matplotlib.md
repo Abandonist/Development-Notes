@@ -49,3 +49,4 @@
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 ```
+注意：在 plt.savefig 中如果设置 bbox_inches='tight'，会导致保存的数据坐标和图片中的点位置存在偏移。
