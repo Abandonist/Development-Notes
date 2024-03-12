@@ -12,7 +12,7 @@ function ConnectButton(){
 };
 ```
 
-##挂载
+## 挂载
 ```
 from google.colab import drive
 drive.mount('/content/drive')
